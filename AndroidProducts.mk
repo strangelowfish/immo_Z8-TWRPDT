@@ -1,8 +1,8 @@
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_Z8.mk
+    $(LOCAL_DIR)/omni_msm8937.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_Z8-user \
-    omni_Z8-userdebug \
-    omni_Z8-eng
+    omni_msm8937-user \
+    omni_msm8937-userdebug \
+    omni_msm8937-eng

@@ -1,4 +1,4 @@
 
-add_lunch_combo omni_Z8-user
-add_lunch_combo omni_Z8-userdebug
-add_lunch_combo omni_Z8-eng
+add_lunch_combo omni_msm8937-user
+add_lunch_combo omni_msm8937-userdebug
+add_lunch_combo omni_msm8937-eng

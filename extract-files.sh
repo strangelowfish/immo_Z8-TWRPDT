@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=Z8
+DEVICE=msm8937
 VENDOR=xtc
 
 # Load extract_utils and do some sanity checks

@@ -1,2 +1,2 @@
 
-LOCAL_PATH := device/xtc/Z8
+LOCAL_PATH := device/xtc/msm8937

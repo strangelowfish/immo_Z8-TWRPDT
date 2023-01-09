@@ -1,5 +1,5 @@
 
-DEVICE_PATH := device/xtc/Z8
+DEVICE_PATH := device/xtc/msm8937
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -33,8 +33,8 @@ BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
-TARGET_KERNEL_CONFIG := Z8_defconfig
-TARGET_KERNEL_SOURCE := kernel/xtc/Z8
+TARGET_KERNEL_CONFIG := msm8937_defconfig
+TARGET_KERNEL_SOURCE := kernel/xtc/msm8937
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
